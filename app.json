@@ -1,8 +1,8 @@
 {
   "name": "CENTRAL",
-  "description": " central bot for central community",
+  "description": " central bot",
   "logo": "https://telegra.ph/file/3b33cb3b37de8fb6be180.jpg",
-  "keywords": ["first deployed by sky"],
+  "keywords": ["telegram-bot"],
   "repository": "https://github.com/coderparv/central",
   "env": {
     "TL_APP_ID": {
