@@ -85,7 +85,7 @@ def gban(update: Update, context: CallbackContext):
 
     if not user_id:
         message.reply_text(
-            "You don't seem to be referring to a user or the ID specified is incorrect.."
+            "too gban by central bot my lord u need to give userid only .."
         )
         return
 
@@ -97,13 +97,13 @@ def gban(update: Update, context: CallbackContext):
 
     if int(user_id) in DRAGONS:
         message.reply_text(
-            "I spy, with my little eye... a disaster! Why are you guys turning on each other?"
+            "I spy, with my little eye... a disaster! where is the parv?"
         )
         return
 
     if int(user_id) in DEMONS:
         message.reply_text(
-            "OOOH someone's trying to gban a Demon Disaster! *grabs popcorn*"
+            "OOOH someone's trying to gban a Demon Disaster like parv! *grabs popcorn*"
         )
         return
 
@@ -120,7 +120,7 @@ def gban(update: Update, context: CallbackContext):
         return
 
     if user_id in [777000, 1882458608]:
-        message.reply_text("Fool! You can't attack Telegram's native tech!")
+        message.reply_text("Central gban comming gud bye idiot from community!")
         return
 
     try:
@@ -257,9 +257,9 @@ def gban(update: Update, context: CallbackContext):
 
     if gban_time > 60:
         gban_time = round((gban_time / 60), 2)
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("successfully gbaned from community chats.", parse_mode=ParseMode.HTML)
     else:
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("successfully gbaned from community chats.", parse_mode=ParseMode.HTML)
 
     try:
         bot.send_message(
