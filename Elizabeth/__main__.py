@@ -36,6 +36,7 @@ from Elizabeth.modules.helper_funcs.chat_status import is_user_admin
 from Elizabeth.modules.helper_funcs.filters import CustomFilters
 from Elizabeth.modules.helper_funcs.misc import paginate_modules
 from Elizabeth.modules.helper_funcs.alternate import typing_action
+from central.modules.aichat.py
 
 
 PM_START_TEXT = f"
