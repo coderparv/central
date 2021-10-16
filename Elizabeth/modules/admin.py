@@ -79,7 +79,7 @@ def promote(update, context):
         can_pin_messages=bot_member.can_pin_messages,
     )
 
-    message.reply_text("Promoted👍")
+    message.reply_text("u are central community admin now enojy")
     return (
         "<b>{}:</b>"
         "\n#PROMOTED"
@@ -105,7 +105,7 @@ def demote(update, context):
     args = context.args
 
     if user_can_promote(chat, user, context.bot.id) is False:
-        message.reply_text("You don't have enough rights to demote someone!")
+        message.reply_text("u can't baby")
         return ""
 
     user_id = extract_user(message, args)
@@ -140,7 +140,7 @@ def demote(update, context):
             can_restrict_members=False,
             can_pin_messages=False,
         )
-        message.reply_text("Successfully demoted!")
+        message.reply_text("bure kamo ka bura natija ")
         return (
             "<b>{}:</b>"
             "\n#DEMOTED"
@@ -154,7 +154,7 @@ def demote(update, context):
 
     except BadRequest:
         message.reply_text(
-            "Failed to demote. I might not be admin, or the admin status was appointed by another "
+            "i am not admin in group yrr "
             "user, so I can't act upon them!")
         return ""
 
@@ -256,7 +256,7 @@ def invite(update, context):
         chat = dispatcher.bot.getChat(conn)
     else:
         if msg.chat.type == "private":
-            msg.reply_text("This command is meant to use in chat not in PM")
+            msg.reply_text("better u come to dm plox")
             return ""
         chat = update.effective_chat
 
@@ -388,7 +388,7 @@ def setchatpic(update, context):
         try:
             with open("gpic.png", "rb") as chatp:
                 context.bot.set_chat_photo(int(chat.id), photo=chatp)
-                msg.reply_text("Successfully set new chatpic!")
+                msg.reply_text("done new pic is on chat!")
         except BadRequest as excp:
             msg.reply_text(f"Error! {excp.message}")
         finally:
