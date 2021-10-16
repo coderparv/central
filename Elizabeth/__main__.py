@@ -38,39 +38,26 @@ from Elizabeth.modules.helper_funcs.misc import paginate_modules
 from Elizabeth.modules.helper_funcs.alternate import typing_action
 
 
-PM_START_TEXT = f"""
-`MASTER HERE` [😎](https://telegra.ph/file/e39fc0deb4c2218f093ff.jpg)  
-`HEY MASTER IS HERE'
-`MASTER IS ALL PURPOSE POWERFUL GROUP MANAGING BOT WITH A CLASS FUNCTIONS. MASTER WILL MANAGE PROTECT AND EVEN GROW YOUR CHAT ADD THE BOT TO YOUR GROUP AND KEEP SHARING IT  FOR MORE INFO GO TO THE BUTTONS BELOW ..`
+PM_START_TEXT = f"
+` ding dong Well to know you are here to meet me.
+Myself Central bot made for @CENTRAL_COMMUNITY to manage it.
+i am for private use not for every public group go to the buttons below ..'
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🔲INVITE MASTER TO YOUR GROUP🔲", url="t.me/python_pirates_bot?startgroup=true"),
+            text="🈴CENTRAL COMMUNITY", url="t.me/python_pirates_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ABOUT MASTER🇮🇳", url="https://t.me/UNT_USERBOT/8"),
-        InlineKeyboardButton(text="SERVICES🙏", callback_data="help_back"),◽️
+        InlineKeyboardButton(text="MY CREATOR 🔧", url="https://t.me/parv200v"),
+        InlineKeyboardButton(text="Source code🗂", url="https://github.com/coderparv/central"),◽️
     ],
-    [
-        InlineKeyboardButton(
-            text="THE 🇮🇳》U『N』T℠巜★", url="t.me/the_unt"),
-        InlineKeyboardButton(
-            text="💐SUPPORT CHAT💐", url="https://t.me/untchats"),
-    ],
-    [  
-        InlineKeyboardButton(text="🇮🇳UNT EDUCATION📕", url="https://t.me/UNT_EDUCATION"
-    ),
-    ], 
-    [
-        InlineKeyboardButton(text="🔥MASTERS HOME🔥", url="https://t.me/your_handler"
-    ), 
-    ],
+     
 ]
  
  HELP_STRINGS = f"""
-`MASTER POWER
+`ding dong
 `USE THE BUTTONS BELOW TO KNOW ABOUT MASTERS COMMANDS IN CHATS..`"""
 
 
@@ -184,7 +171,7 @@ def start(update, context):
                 disable_web_page_preview=False,
             )
     else:
-        update.effective_message.reply_text("MASTER🔥 IS READY TO START CLASS")
+        update.effective_message.reply_text("CENTRAL BOT IS HERE YOO")
 
 
 
